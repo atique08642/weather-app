@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card mt-5 shadow">
+                <h3 class="card-header bg-info text-white">{{city_name}}</h3>
+
+                <!-- Weather details of the city -->
+                <div class="card-body">
+                    <p><span class="badge badge-info">Country</span>  <span class="float-right">IN</span></p>
+                    <p><span class="badge badge-info">Pressure</span>  <span class="float-right">3.2</span></p>
+                    <p><span class="badge badge-info">Weather</span>  <span class="float-right">Sunny</span></p>
+                    <p><span class="badge badge-info">Sunrise</span>  <span class="float-right">6:30</span></p>
+                    <p><span class="badge badge-info">Latitude</span>  <span class="float-right">6.82</span></p>
+                    <p><span class="badge badge-info">Longitude</span>  <span class="float-right">7.28</span></p>
+                </div>
+
+
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary btn-block" (click)= "getCity()">Get Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
